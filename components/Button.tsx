@@ -17,7 +17,7 @@ const Button = ({ onClick, type, children }: ButtonProps) => (
   <button
     onClick={onClick}
     type={type}
-    className="px-4 py-2 bg-blue-500 hover:bg-blue-700 text-white font-bold rounded"
+    className="px-4 py-2 bg-blue-700 hover:bg-blue-900 text-white font-bold rounded"
   >
     {children}
   </button>

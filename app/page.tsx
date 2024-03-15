@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="py-8">
       <Container>
-        <h1 className="pb-4">Upload Your Passport</h1>
+        <h1 className="pb-4">Passport Extraction Tool</h1>
         <PassportUploadForm />
       </Container>
     </div>

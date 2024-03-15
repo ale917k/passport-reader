@@ -152,7 +152,9 @@ const PassportUploadForm = () => {
   return (
     <>
       <form onSubmit={handleSubmit} className="flex items-center gap-2">
+        <label htmlFor="fileInput">Upload your passport</label>
         <input
+          id="fileInput"
           name="file"
           ref={inputFileRef}
           type="file"
