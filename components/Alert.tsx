@@ -1,9 +1,11 @@
 "use client";
 
-import { APIStatus } from "@/types/api";
-
 type AlertProps = {
-  status: APIStatus;
+  status: {
+    loading: boolean;
+    error: string;
+    success: string;
+  };
 };
 
 /**
